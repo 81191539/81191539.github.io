@@ -1,20 +1,20 @@
-# bohuang78 · 不在主流频道
+# BOHUANG78 — Personal Index
 
-独立个人主页，使用 HTML、CSS 和少量 JavaScript。展示名为 bohuang78，GitHub 账号为 81191539。
+bohuang78 的独立个人主页，发布于 https://81191539.github.io/ 。GitHub 账号为 81191539。
+
+使用超大姓名排版、黑白与信号红、程序生成的线条图形和三个公开项目封面。支持深浅背景切换及移动端布局。
 
 ## 本地预览
 
-在目录内运行 `python -m http.server 4178`，然后打开 http://localhost:4178 。也可直接打开 index.html。
+直接打开 `index.html`，或在此目录运行 `python -m http.server 4178` 并打开 http://localhost:4178 。
 
 ## 编辑
 
-- `index.html`：个人文案、项目与链接。
-- `style.css`：紫色 / 酸性绿主题、布局和响应式样式。
-- `script.js`：主题切换及本地保存。
+- `index.html`：页面内容和项目链接。
+- `style.css`：排版、主题、响应式布局。
+- `script.js`：主题保存及 SVG 线条图形。
 - `favicon.svg`：站点图标。
 
-没有构建步骤、第三方统计或外部字体。项目入口来自账号的公开仓库；未填写未经确认的个人履历或联系方式。
+无需构建，无外部字体、第三方统计或依赖。项目入口来自账号公开仓库。
 
-## GitHub Pages
-
-仓库：`81191539/81191539.github.io`。从 `main` 分支根目录发布。
+GitHub Pages 从 `main` 分支根目录发布。

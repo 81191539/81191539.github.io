@@ -3,68 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#17151b">
-  <meta name="description" content="bohuang78 的私人互联网角落。代码、游戏，和一些不按套路来的想法。">
-  <title>bohuang78 · 不在主流频道</title>
+  <meta name="theme-color" content="#eeede7">
+  <meta name="description" content="bohuang78 — 代码、游戏与个人实验。">
+  <title>BOHUANG78 — Personal Index</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="script.js?v=2" defer></script>
 </head>
 <body>
-  <a class="skip" href="#main">跳转到正文</a>
-  <div class="site-shell">
-    <header class="header">
-      <a class="wordmark" href="#" aria-label="bohuang78 首页">b<span>✳</span>78<span class="wordmark-dot">.</span></a>
-      <nav aria-label="主导航"><a href="#about">关于我 <span>01</span></a><a href="#projects">我的项目 <span>02</span></a><a href="https://github.com/81191539" target="_blank" rel="noopener noreferrer">GITHUB ↗</a></nav>
-      <button class="theme-button" id="theme" aria-label="切换到酸性绿主题" title="换个频率">◐ <span>换个频率</span></button>
-    </header>
-    <main id="main">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-meta"><span><i></i> PERSONAL SPACE / 私人频段</span><span>EST. IN THE INTERNET</span></div>
-        <div class="hero-main">
-          <div class="hero-copy">
-            <p class="eyebrow">HELLO, STRANGER. <span>欢迎误入。</span></p>
-            <h1 id="hero-title">不在<span class="outline">主流</span><br><span class="last-line">频道<span class="title-star">✳</span><span class="period">。</span></span></h1>
-            <div class="intro"><span class="arrow">↳</span><p>我是 <strong>bohuang78</strong>。<br>把好奇心写进代码，把无聊留在站外。</p></div>
-            <a class="primary-link" href="#projects">看看我的折腾 <span>↗</span></a>
-          </div>
-          <div class="artwork" aria-label="复古电脑窗口里的抽象轨道星球" role="img">
-            <div class="orbit-note">DO NOT ADJUST<br>YOUR MIND.</div>
-            <div class="orbit-window">
-              <div class="window-bar"><span>unfiltered_self.exe</span><span>— □ ×</span></div>
-              <div class="orbital">
-                <svg class="orbit-svg" viewBox="0 0 420 340" aria-hidden="true">
-                  <defs><radialGradient id="sphere" cx="32%" cy="27%"><stop offset="0" stop-color="#fff6ff"/><stop offset=".25" stop-color="#ddbaff"/><stop offset=".7" stop-color="#8464b1"/><stop offset="1" stop-color="#32253e"/></radialGradient><pattern id="dots" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#18131c"/></pattern></defs>
-                  <g stroke="#716979" stroke-width=".6" opacity=".5"><path d="M0 280H420M0 300H420M0 325H420M210 230L0 340M210 230L80 340M210 230L160 340M210 230L260 340M210 230L340 340M210 230L420 340"/></g>
-                  <g class="planet"><circle cx="210" cy="160" r="91" fill="url(#sphere)"/><circle cx="210" cy="160" r="91" fill="url(#dots)" opacity=".5"/><ellipse cx="210" cy="160" rx="179" ry="48" transform="rotate(-30 210 160)" fill="none" stroke="#deff90" stroke-width="2"/><ellipse cx="210" cy="160" rx="155" ry="40" transform="rotate(35 210 160)" fill="none" stroke="#d9b5fb" stroke-width="1"/><circle cx="66" cy="247" r="8" fill="#deff90"/><path d="M336 51v28m-14-14h28M109 46v14m-7-7h14M318 252v20m-10-10h20" stroke="#f3eaf9" stroke-width="2"/></g>
-                  <text x="20" y="321" fill="#afa5ba" font-family="monospace" font-size="11">NO SIGNAL LOST. JUST DIFFERENT.</text>
-                </svg>
-              </div>
-              <div class="window-footer"><span>IDENTITY: BOHUANG78</span><span>100% SELF</span></div>
-            </div>
-            <div class="sticker">保持奇怪<br><span>STAY WEIRD ↗</span></div>
-            <span class="art-coordinate">[ 078 / NO FIXED ORBIT ]</span>
-          </div>
-        </div>
-        <div class="hero-bottom"><span>独立运行 · 不必同频</span><a href="#about">SCROLL TO EXPLORE <span>↓</span></a><span class="tiny-cross">✳</span></div>
-      </section>
-      <div class="ticker" aria-hidden="true"><div>CODE A LITTLE ✳ DREAM A LITTLE ✳ 保持好奇 ✳ 拒绝无聊 ✳ STAY A LITTLE WEIRD ✳ CODE A LITTLE ✳ DREAM A LITTLE ✳ 保持好奇 ✳ 拒绝无聊 ✳</div></div>
-      <section class="about section" id="about" aria-labelledby="about-title">
-        <div class="section-label">01 / BEHIND THE SCREEN</div>
-        <div class="about-content"><h2 id="about-title">这里没有标准答案，<br>只有<span>下一次尝试。</span></h2><div class="about-text"><p>欢迎来到我的互联网自留地。<br>一些代码，一点游戏，还有没被归类的想法。</p><p>这里收集已经开始的折腾。<br>至于下一步？让好奇心带路。</p><div class="tags"><span>⌘ 写点代码</span><span>↗ 玩点不一样的</span><span>✳ 保持好奇</span></div></div></div>
-      </section>
-      <section class="projects section" id="projects" aria-labelledby="projects-title">
-        <div class="section-label">02 / THINGS I PUT INTO THE WORLD</div>
-        <div class="section-heading"><h2 id="projects-title">折腾<span>档案</span><sup>(03)</sup></h2><a href="https://github.com/81191539?tab=repositories" target="_blank" rel="noopener noreferrer">全部仓库 ↗</a></div>
-        <div class="project-list">
-          <a class="project" href="https://github.com/81191539/JX3_DPS_calculation" target="_blank" rel="noopener noreferrer"><span class="project-number">001</span><div class="project-icon">劍<span>✦</span></div><div class="project-title"><h3>JX3_DPS_calculation</h3><p>剑网 3 · DPS 计算</p></div><span class="project-lang">HTML</span><span class="project-arrow">↗</span></a>
-          <a class="project" href="https://github.com/81191539/game_holy" target="_blank" rel="noopener noreferrer"><span class="project-number">002</span><div class="project-icon game-icon">+<span>••</span></div><div class="project-title"><h3>game_holy</h3><p>打开仓库，进入游戏频道</p></div><span class="project-lang">JAVASCRIPT</span><span class="project-arrow">↗</span></a>
-          <a class="project" href="https://github.com/81191539/ADR-release" target="_blank" rel="noopener noreferrer"><span class="project-number">003</span><div class="project-icon release-icon">↗</div><div class="project-title"><h3>ADR-release</h3><p>发布、迭代、继续折腾</p></div><span class="project-lang">BATCHFILE</span><span class="project-arrow">↗</span></a>
-        </div>
-      </section>
-      <section class="contact" aria-labelledby="contact-title"><div><p class="eyebrow">END OF PAGE. START OF SOMETHING.</p><h2 id="contact-title">同频的话，<br>就打个<span>招呼。</span></h2></div><a class="contact-link" href="https://github.com/81191539" target="_blank" rel="noopener noreferrer" aria-label="前往我的 GitHub">↗<span>FIND ME ON GITHUB</span></a><div class="contact-doodle" aria-hidden="true">✳</div></section>
-    </main>
-    <footer><span>© <span id="year">2026</span> bohuang78</span><span>手写的角落 / 独立的频道</span><a href="#">BACK TO TOP ↑</a></footer>
-  </div>
+  <a class="skip" href="#projects">跳至项目</a>
+  <header class="header">
+    <a class="monogram" href="#" aria-label="bohuang78 首页">b/h<span>78</span></a>
+    <span class="header-note">PERSONAL INDEX<br>BOHUANG78 / WEB</span>
+    <nav aria-label="主导航"><a href="#projects">项目 <sup>03</sup></a><a href="https://github.com/81191539" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><button id="theme" aria-label="切换深色背景" aria-pressed="false">◐</button></nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="name">
+      <div class="hero-left"></div>
+      <div class="hero-art" aria-hidden="true">
+        <span class="art-registration top">+<span>FIG. 078 — PERSONAL OBJECT</span>+</span>
+        <svg class="sculpture" viewBox="0 0 600 660" fill="none"><g id="wire-object"></g></svg>
+        <span class="art-number">78</span>
+        <div class="art-caption"><span>OBJECT / 01</span><span>↙</span><span>CONTINUOUS<br>EXPERIMENT</span></div>
+      </div>
+      <div class="hero-topline"><span>一个人的互联网切片</span><span class="location-tag">[ OPEN IN BROWSER ]</span></div>
+      <h1 id="name"><span class="name-first">BO<span class="name-mark" aria-hidden="true">✳</span></span><span class="name-last">HUANG<span class="name-stop">.</span></span><span class="sr-only">78</span></h1>
+      <div class="hero-bottom"><div class="intro"><span class="intro-arrow">↳</span><p>代码、游戏，<br>和一些个人实验。</p></div><a class="explore" href="#projects"><span>浏览项目<br><small>EXPLORE THE INDEX</small></span><span class="explore-arrow">↓</span></a></div>
+      <div class="spine" aria-hidden="true">BOHUANG78 / PERSONAL INDEX / 001</div>
+    </section>
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+      <div class="section-top"><span>01—03 / PUBLIC REPOSITORIES</span><span>代码存放处 ↙</span></div>
+      <div class="project-heading"><h2 id="projects-title">WORK<span>INDEX</span></h2><div class="index-note"><span class="index-symbol" aria-hidden="true">↗</span><p>从游戏计算到小型实验。<br>点击条目，查看源码。</p></div></div>
+      <div class="project-grid">
+        <a class="project project-one" href="https://github.com/81191539/JX3_DPS_calculation" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span>01 / HTML</span><span>↗</span></div>
+          <div class="project-visual sword" aria-hidden="true"><span class="sword-word">劍</span><svg viewBox="0 0 300 250"><path d="M242 10L97 161l-18-3 7 18-28 30 9 10 31-30 17 8-2-20L261 26z" fill="currentColor"/><path d="M240 20L104 169" stroke="#e3e0d6" stroke-width="2"/><path d="M62 151l60 60" stroke="currentColor" stroke-width="9"/></svg><span class="visual-caption">DAMAGE / PER / SECOND</span></div>
+          <div class="card-bottom"><h3>JX3 DPS<span>计算器</span></h3><p>JX3_DPS_calculation</p></div>
+        </a>
+        <a class="project project-two" href="https://github.com/81191539/game_holy" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span>02 / JAVASCRIPT</span><span>↗</span></div>
+          <div class="project-visual game" aria-hidden="true"><div class="pixel-cross"></div><div class="game-orbit"></div><span class="game-digit">02</span><span class="visual-caption">GAME_HOLY / SOURCE FILES</span></div>
+          <div class="card-bottom"><h3>GAME<span>HOLY</span></h3><p>game_holy</p></div>
+        </a>
+        <a class="project project-three" href="https://github.com/81191539/ADR-release" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span>03 / BATCHFILE</span><span>↗</span></div>
+          <div class="project-visual release" aria-hidden="true"><span class="release-type">ADR</span><div class="barcode"></div><span class="visual-caption">RELEASE / DISTRIBUTION</span></div>
+          <div class="card-bottom"><h3>ADR<span>RELEASE</span></h3><p>ADR-release</p></div>
+        </a>
+      </div>
+      <a class="all-projects" href="https://github.com/81191539?tab=repositories" target="_blank" rel="noopener noreferrer"><span>查看全部仓库</span><span>VIEW ALL REPOSITORIES ↗</span></a>
+    </section>
+    <section class="outro" aria-labelledby="outro-title"><div class="outro-top"><span>ELSEWHERE / 在别处</span><span>接下来，GitHub 见。</span></div><a href="https://github.com/81191539" target="_blank" rel="noopener noreferrer"><h2 id="outro-title">GITHUB</h2><span class="outro-arrow">↗</span></a><div class="outro-bottom"><span>@81191539</span><span>BOHUANG78 — PERSONAL INDEX</span></div></section>
+  </main>
+  <footer><span>© <span id="year">2026</span> BOHUANG78</span><span class="footer-mark" aria-hidden="true">b/h</span><a href="#">回到顶部 ↑</a></footer>
 </body>
 </html>
+
