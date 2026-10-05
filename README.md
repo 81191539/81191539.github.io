@@ -1,20 +1,23 @@
-# BOHUANG78 — Personal Index
+# Bo Huang — Research & CV
 
-bohuang78 的独立个人主页，发布于 https://81191539.github.io/ 。GitHub 账号为 81191539。
+Personal academic homepage: https://81191539.github.io/
 
-使用超大姓名排版、黑白与信号红、程序生成的线条图形和三个公开项目封面。支持深浅背景切换及移动端布局。
+English-language academic CV, presented as a photocopied punk collage with torn paper, cutout type, and acid-yellow annotations. Includes current work, research interests, education and experience, four published articles, and a one-sentence research summary.
 
-## 本地预览
+## Files
 
-直接打开 `index.html`，或在此目录运行 `python -m http.server 4178` 并打开 http://localhost:4178 。
+- `index.html`: homepage and publication DOI links.
+- `style.css`: collage art direction and responsive layout.
+- `cv.html` and `cv.css`: printable curriculum vitae.
+- `script.js`: print control for the CV.
+- `assets/heart-impeller-xerox.png`: generated editorial artwork, not a research figure.
+- `assets/ARTWORK.md`: original image-generation prompt and provenance.
+- `favicon.svg`: site icon.
 
-## 编辑
+No external fonts, frontend frameworks, or tracking. GitHub Pages publishes the root of the main branch.
 
-- `index.html`：页面内容和项目链接。
-- `style.css`：排版、主题、响应式布局。
-- `script.js`：主题保存及 SVG 线条图形。
-- `favicon.svg`：站点图标。
+## Sources and accuracy
 
-无需构建，无外部字体、第三方统计或依赖。项目入口来自账号公开仓库。
+Professional appointments, education, and research background were compiled from the owner's existing records, current as of October 5, 2026. Article titles, author order, volume, issue, and article numbers were checked against publisher-deposited Crossref metadata; each article links to its DOI. Four published journal articles are listed. In-preparation or under-review manuscripts are not represented as publications.
 
-GitHub Pages 从 `main` 分支根目录发布。
+The official 2024 article title is *Physics-informed neural networks for advection–diffusion–Langmuir adsorption processes*.

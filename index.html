@@ -1,61 +1,71 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#eeede7">
-  <meta name="description" content="bohuang78 — 代码、游戏与个人实验。">
-  <title>BOHUANG78 — Personal Index</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=2">
-  <script src="script.js?v=2" defer></script>
+  <meta name="theme-color" content="#1c1c19">
+  <meta name="description" content="Bo Huang, Postdoctoral Research Associate in Applied Mathematics at Brown University. Computational modeling of cardiovascular devices, fluid mechanics, transport, and interfacial processes.">
+  <title>Bo Huang — Research & CV</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
-  <a class="skip" href="#projects">跳至项目</a>
+  <a class="skip" href="#now">Skip to CV content</a>
+  <div class="page-grain" aria-hidden="true"></div>
   <header class="header">
-    <a class="monogram" href="#" aria-label="bohuang78 首页">b/h<span>78</span></a>
-    <span class="header-note">PERSONAL INDEX<br>BOHUANG78 / WEB</span>
-    <nav aria-label="主导航"><a href="#projects">项目 <sup>03</sup></a><a href="https://github.com/81191539" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><button id="theme" aria-label="切换深色背景" aria-pressed="false">◐</button></nav>
+    <a class="brand" href="#" aria-label="Bo Huang home">BH<span>78</span><i aria-hidden="true">×</i></a>
+    <span class="issue">PERSONAL FILE<br>BO HUANG / RESEARCH</span>
+    <nav aria-label="Main navigation"><a href="#now">Now</a><a href="#interests">Interests</a><a href="#education">Background</a><a href="#papers">Papers</a><a class="cv-link" href="cv.html" target="_blank" rel="noopener">CV ↗</a></nav>
   </header>
   <main>
     <section class="hero" aria-labelledby="name">
-      <div class="hero-left"></div>
-      <div class="hero-art" aria-hidden="true">
-        <span class="art-registration top">+<span>FIG. 078 — PERSONAL OBJECT</span>+</span>
-        <svg class="sculpture" viewBox="0 0 600 660" fill="none"><g id="wire-object"></g></svg>
-        <span class="art-number">78</span>
-        <div class="art-caption"><span>OBJECT / 01</span><span>↙</span><span>CONTINUOUS<br>EXPERIMENT</span></div>
+      <div class="hero-copy">
+        <div class="mini-label"><span class="tiny-square"></span> RESEARCHER / PROVIDENCE, RI</div>
+        <h1 id="name" aria-label="Bo Huang"><span class="cutout bo">B<span>O</span></span><span class="cutout huang">HUANG</span><span class="chinese-name"><span class="name-handle">@bohuang78</span><span aria-hidden="true">↗</span></span></h1>
+        <div class="hero-bio"><span class="handnote">currently here ↓</span><p>Postdoctoral Research Associate<br><strong>Brown University</strong><br><span>Division of Applied Mathematics<br>George Em Karniadakis Group</span></p></div>
+        <div class="hero-links"><a href="#papers">Read the papers <span>↗</span></a><a href="cv.html" target="_blank" rel="noopener">View CV <span>↗</span></a></div>
       </div>
-      <div class="hero-topline"><span>一个人的互联网切片</span><span class="location-tag">[ OPEN IN BROWSER ]</span></div>
-      <h1 id="name"><span class="name-first">BO<span class="name-mark" aria-hidden="true">✳</span></span><span class="name-last">HUANG<span class="name-stop">.</span></span><span class="sr-only">78</span></h1>
-      <div class="hero-bottom"><div class="intro"><span class="intro-arrow">↳</span><p>代码、游戏，<br>和一些个人实验。</p></div><a class="explore" href="#projects"><span>浏览项目<br><small>EXPLORE THE INDEX</small></span><span class="explore-arrow">↓</span></a></div>
-      <div class="spine" aria-hidden="true">BOHUANG78 / PERSONAL INDEX / 001</div>
+      <figure class="hero-collage"><span class="tape top-tape" aria-hidden="true"></span><img src="assets/heart-impeller-xerox.png" width="1254" height="1254" fetchpriority="high" alt="A photocopied collage of an anatomical heart and a mechanical impeller; an artistic interpretation of the research themes"><span class="art-sticker" aria-hidden="true">FLUIDS.<br>DEVICES.<br>INTERFACES.</span><figcaption>01 / HEART × MACHINE <span>ARTWORK / NOT RESEARCH DATA</span></figcaption></figure>
+      <div class="hero-bottom"><span>COMPUTATIONAL FLUID DYNAMICS</span><span>TSINGHUA → INDUSTRY → BROWN</span><a href="#now" aria-label="Continue reading">↓</a></div>
     </section>
-    <section class="projects" id="projects" aria-labelledby="projects-title">
-      <div class="section-top"><span>01—03 / PUBLIC REPOSITORIES</span><span>代码存放处 ↙</span></div>
-      <div class="project-heading"><h2 id="projects-title">WORK<span>INDEX</span></h2><div class="index-note"><span class="index-symbol" aria-hidden="true">↗</span><p>从游戏计算到小型实验。<br>点击条目，查看源码。</p></div></div>
-      <div class="project-grid">
-        <a class="project project-one" href="https://github.com/81191539/JX3_DPS_calculation" target="_blank" rel="noopener noreferrer">
-          <div class="card-top"><span>01 / HTML</span><span>↗</span></div>
-          <div class="project-visual sword" aria-hidden="true"><span class="sword-word">劍</span><svg viewBox="0 0 300 250"><path d="M242 10L97 161l-18-3 7 18-28 30 9 10 31-30 17 8-2-20L261 26z" fill="currentColor"/><path d="M240 20L104 169" stroke="#e3e0d6" stroke-width="2"/><path d="M62 151l60 60" stroke="currentColor" stroke-width="9"/></svg><span class="visual-caption">DAMAGE / PER / SECOND</span></div>
-          <div class="card-bottom"><h3>JX3 DPS<span>计算器</span></h3><p>JX3_DPS_calculation</p></div>
-        </a>
-        <a class="project project-two" href="https://github.com/81191539/game_holy" target="_blank" rel="noopener noreferrer">
-          <div class="card-top"><span>02 / JAVASCRIPT</span><span>↗</span></div>
-          <div class="project-visual game" aria-hidden="true"><div class="pixel-cross"></div><div class="game-orbit"></div><span class="game-digit">02</span><span class="visual-caption">GAME_HOLY / SOURCE FILES</span></div>
-          <div class="card-bottom"><h3>GAME<span>HOLY</span></h3><p>game_holy</p></div>
-        </a>
-        <a class="project project-three" href="https://github.com/81191539/ADR-release" target="_blank" rel="noopener noreferrer">
-          <div class="card-top"><span>03 / BATCHFILE</span><span>↗</span></div>
-          <div class="project-visual release" aria-hidden="true"><span class="release-type">ADR</span><div class="barcode"></div><span class="visual-caption">RELEASE / DISTRIBUTION</span></div>
-          <div class="card-bottom"><h3>ADR<span>RELEASE</span></h3><p>ADR-release</p></div>
-        </a>
+    <section id="now" class="now-section" aria-labelledby="now-title">
+      <div class="section-kicker"><span>01 / CURRENT</span><span>2026.10 — PRESENT</span></div>
+      <div class="now-layout"><div><h2 id="now-title" class="section-title"><span>RIGHT</span><br><em>NOW.</em></h2><p class="margin-note">from devices to the physics underneath.</p></div><div class="now-copy"><p class="lead">Computational modeling.<br>Fluid mechanics.<br><mark>Medical devices.</mark></p><p>I joined George Em Karniadakis’s group in the Division of Applied Mathematics at Brown University in October 2026. My current work centers on numerical simulation of cardiovascular flows and device design optimization, with an additional interest in multiphase flow and heat transfer.</p><p>Previously, I worked in the medical-device industry on blood-pump and ECMO simulations, connecting fluid mechanics and transport phenomena with engineering design.</p><a class="text-link" href="cv.html" target="_blank" rel="noopener">Full curriculum vitae ↗</a></div></div>
+    </section>
+    <section id="interests" class="interests-section" aria-labelledby="interest-title">
+      <div class="section-kicker"><span>02 / RESEARCH INTERESTS</span><span>PHYSICS FIRST.</span></div>
+      <h2 id="interest-title" class="section-title"><span>THE</span> <em>QUESTIONS.</em><span class="heading-scribble" aria-hidden="true">↙</span></h2>
+      <div class="interest-grid">
+        <article class="interest-sheet sheet-one"><span class="sheet-pin" aria-hidden="true">+</span><span class="sheet-number">01</span><h3>Blood flow.<br>Better devices.</h3><p>Blood pumps, cardiovascular devices, and hemodynamics. How do flow fields affect hemocompatibility, and how can design improve device performance?</p><span class="sheet-footer">HEMODYNAMICS / DEVICE DESIGN</span></article>
+        <article class="interest-sheet sheet-two"><span class="tape" aria-hidden="true"></span><span class="sheet-number">02</span><h3>Transport.<br>Interfaces.</h3><p>Advection and diffusion coupled with surface reactions at fluid–solid interfaces. Adsorption kinetics, dominant mechanisms, and the scales linking these processes.</p><span class="sheet-footer">TRANSPORT / SURFACE ADSORPTION</span></article>
+        <article class="interest-sheet sheet-three"><span class="sheet-number">03</span><h3>Multiphase flow.<br>Numerics.</h3><p>Multiphase flow, heat transfer, and scientific computing. Numerical methods that connect physical mechanisms with testable predictions and engineering problems.</p><span class="sheet-footer">MULTIPHASE FLOW / NUMERICS</span></article>
       </div>
-      <a class="all-projects" href="https://github.com/81191539?tab=repositories" target="_blank" rel="noopener noreferrer"><span>查看全部仓库</span><span>VIEW ALL REPOSITORIES ↗</span></a>
     </section>
-    <section class="outro" aria-labelledby="outro-title"><div class="outro-top"><span>ELSEWHERE / 在别处</span><span>接下来，GitHub 见。</span></div><a href="https://github.com/81191539" target="_blank" rel="noopener noreferrer"><h2 id="outro-title">GITHUB</h2><span class="outro-arrow">↗</span></a><div class="outro-bottom"><span>@81191539</span><span>BOHUANG78 — PERSONAL INDEX</span></div></section>
+    <section id="education" class="education-section" aria-labelledby="education-title">
+      <div class="section-kicker"><span>03 / BACKGROUND</span><a href="cv.html" target="_blank" rel="noopener">PRINTABLE CV ↗</a></div>
+      <div class="background-layout"><div class="background-heading"><h2 id="education-title" class="section-title"><span>THE</span><br><em>ROUTE.</em></h2><div class="route-stamp" aria-hidden="true">2012<br><span>↓</span><br>NOW</div></div><div class="history">
+        <div class="history-heading"><h3>EDUCATION</h3><span aria-hidden="true">↘</span></div>
+        <article class="history-item"><time>2016 — 2023</time><div><h4>Tsinghua University <span>Ph.D.</span></h4><p>Department of Energy and Power Engineering</p><p class="history-detail">Doctoral research: computational modeling of ventricular assist devices and blood pumps, clotting-protein adsorption, and pump design optimization.</p></div></article>
+        <article class="history-item"><time>2012 — 2016</time><div><h4>Tsinghua University <span>Bachelor’s</span></h4><p>Energy and Power Systems and Automation</p></div></article>
+        <div class="history-heading work-heading"><h3>EXPERIENCE</h3><span aria-hidden="true">↘</span></div>
+        <article class="history-item"><time>2026.10 — Present</time><div><h4>Brown University</h4><p>Postdoctoral Research Associate</p><p class="history-detail">Division of Applied Mathematics · Karniadakis Group</p></div></article>
+        <article class="history-item"><time>2024.02 — 2026.06</time><div><h4>Awakzon Medical</h4><p>Senior / CFD Engineer</p><p class="history-detail">CFD modeling for ECMO and blood pumps; heat transfer and gas-exchange performance prediction.</p></div></article>
+        <article class="history-item"><time>2023.10 — 2024.02</time><div><h4>MicroPort</h4><p>Simulation Engineer</p></div></article>
+      </div></div>
+    </section>
+    <section id="papers" class="papers-section" aria-labelledby="papers-title">
+      <div class="section-kicker"><span>04 / PUBLICATIONS</span><span>2021 — 2025 / 04 ARTICLES</span></div>
+      <div class="papers-heading"><h2 id="papers-title" class="section-title"><span>ON THE</span><br><em>RECORD.</em></h2><span class="paper-stamp">PUBLISHED<br><b>04</b></span></div>
+      <ol class="paper-list">
+        <li class="paper"><div class="paper-index"><span>01</span><time>2025</time></div><div class="paper-content"><span class="journal">PHYSICS OF FLUIDS · 37(3), 031921</span><h3><a href="https://doi.org/10.1063/5.0255467" target="_blank" rel="noopener noreferrer">Hydraulic performance and physiological compatibility of an extracorporeal centrifugal blood pump during startup <span>↗</span></a></h3><p class="authors">Da Geng, Huan Han, <strong>Bo Huang</strong>, Shuhong Liu, Zhigang Zuo.</p><div class="paper-bottom"><p>Hydraulic performance and physiological compatibility during blood-pump startup.</p><a class="doi" href="https://doi.org/10.1063/5.0255467" target="_blank" rel="noopener noreferrer">DOI: 10.1063/5.0255467 ↗</a></div></div></li>
+        <li class="paper"><div class="paper-index"><span>02</span><time>2024</time></div><div class="paper-content"><span class="journal">PHYSICS OF FLUIDS · 36(8), 081906</span><h3><a href="https://doi.org/10.1063/5.0221924" target="_blank" rel="noopener noreferrer">Physics-informed neural networks for advection–diffusion–Langmuir adsorption processes <span>↗</span></a></h3><p class="authors"><strong>Bo Huang</strong>, Haobo Hua, Huan Han, Sensen He, Yuanye Zhou, Shuhong Liu, Zhigang Zuo.</p><div class="paper-bottom"><p>Physics-informed computation for coupled transport and Langmuir surface adsorption.</p><a class="doi" href="https://doi.org/10.1063/5.0221924" target="_blank" rel="noopener noreferrer">DOI: 10.1063/5.0221924 ↗</a></div></div></li>
+        <li class="paper"><div class="paper-index"><span>03</span><time>2023</time></div><div class="paper-content"><span class="journal">PHYSICS OF FLUIDS · 35(2), 021904</span><h3><a href="https://doi.org/10.1063/5.0133789" target="_blank" rel="noopener noreferrer">Characteristics of advection–diffusion–Langmuir adsorption processes in two-dimensional plane Poiseuille flows <span>↗</span></a></h3><p class="authors"><strong>Bo Huang</strong>, Haobo Hua, Huan Han, Qingyu Wu, Mingkui Zhang, Zhigang Zuo, Shuhong Liu.</p><div class="paper-bottom"><p>Coupled transport and surface-adsorption mechanisms in planar Poiseuille flow.</p><a class="doi" href="https://doi.org/10.1063/5.0133789" target="_blank" rel="noopener noreferrer">DOI: 10.1063/5.0133789 ↗</a></div></div></li>
+        <li class="paper"><div class="paper-index"><span>04</span><time>2021</time></div><div class="paper-content"><span class="journal">PROCESSES · 9(7), 1211</span><h3><a href="https://doi.org/10.3390/pr9071211" target="_blank" rel="noopener noreferrer">Geometric Optimization of an Extracorporeal Centrifugal Blood Pump with an Unshrouded Impeller Concerning Both Hydraulic Performance and Shear Stress <span>↗</span></a></h3><p class="authors"><strong>Bo Huang</strong>, Miao Guo, Bin Lu, Qingyu Wu, Zhigang Zuo, Shuhong Liu.</p><div class="paper-bottom"><p>Blood-pump geometry optimization balancing hydraulic performance and shear stress.</p><a class="doi" href="https://doi.org/10.3390/pr9071211" target="_blank" rel="noopener noreferrer">DOI: 10.3390/pr9071211 ↗</a></div></div></li>
+      </ol>
+    </section>
+    <section class="contact-strip" aria-label="Contact"><span>GET IN TOUCH ↘</span><a href="mailto:huang-b16@tsinghua.org.cn">huang-b16@tsinghua.org.cn ↗</a><a href="https://github.com/81191539" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="cv.html" target="_blank" rel="noopener">CV ↗</a></section>
+    <section class="closing" aria-labelledby="closing-title"><div class="closing-meta"><h2 id="closing-title">In one sentence.</h2><span>BO HUANG</span></div><p>I study <span>flow, transport, and interfaces</span><br>to understand and improve<br><strong>cardiovascular medical devices.</strong></p><div class="closing-mark" aria-hidden="true">↗</div></section>
   </main>
-  <footer><span>© <span id="year">2026</span> BOHUANG78</span><span class="footer-mark" aria-hidden="true">b/h</span><a href="#">回到顶部 ↑</a></footer>
+  <footer><span>© 2026 BOHUANG78</span><span>UPDATED / 2026.10.05</span><a href="#">↑ BACK TO TOP</a></footer>
 </body>
 </html>
-
