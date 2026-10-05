@@ -21,3 +21,5 @@ No external fonts, frontend frameworks, or tracking. GitHub Pages publishes the 
 Professional appointments, education, and research background were compiled from the owner's existing records, current as of October 5, 2026. Article titles, author order, volume, issue, and article numbers were checked against publisher-deposited Crossref metadata; each article links to its DOI. Four published journal articles are listed. In-preparation or under-review manuscripts are not represented as publications.
 
 The official 2024 article title is *Physics-informed neural networks for advection–diffusion–Langmuir adsorption processes*.
+
+Compact layout: verified at 1366 x 768 (1399 px total height, about 1.8 screens). Both the homepage and CV print to two A4 pages. Full author lists remain in the CV; homepage citations use abbreviated author lists.
